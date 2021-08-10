@@ -30,11 +30,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live Demo Link](?)
+[Live Demo Link](https://rustamxon7.github.io/Module-1-Capstone-Project/)
 
 ### Install
 
-To clone this repo go to "?"
+To clone this repo go to "https://github.com/Rustamxon7/Module-1-Capstone-Project.git"
 
 git clone your repo
 
@@ -53,7 +53,7 @@ open index.html with live server
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](?).
+Feel free to check the [issues page](https://github.com/Rustamxon7/Module-1-Capstone-Project/issues).
 
 ## Show your support
 
