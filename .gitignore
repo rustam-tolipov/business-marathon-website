@@ -2,6 +2,5 @@
 node_modules/
 
 # .gitignore  scss
-styles/mstyle.scss
 styles/mstyle.css.map
 text.txt
