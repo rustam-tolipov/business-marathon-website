@@ -99,24 +99,22 @@ const data = {
   },
 };
 
-// const nameID = document.getElementById('name1');
-const img = document.getElementById('img');
-const nameID = document.getElementById('name');
-const rule = document.getElementById('rule');
-const info = document.getElementById('info');
-// const speaker = data[`speaker${order}`];
-// img.src = data.speaker.img;
-// rule.innerHTML = data.speaker.rule;
-// info.innerHTML = data.speaker.info;
+// // const nameID = document.getElementById('name1');
+// const img = document.getElementById('img');
+// const nameID = document.getElementById('name');
+// const rule = document.getElementById('rule');
+// const info = document.getElementById('info');
+// // const speaker = data[`speaker${order}`];
+// // img.src = data.speaker.img;
+// // rule.innerHTML = data.speaker.rule;
+// // info.innerHTML = data.speaker.info;
 
-function changePopup(order) {
-  const speaker = data[`speaker${order}`];
-  img.src = speaker.img;
-  nameID.innerHTML = speaker.name;
-  rule.innerHTML = speaker.rule;
-  info.innerHTML = speaker.info;
-}
+// function changePopup(order) {
+//   const speaker = data[`speaker${order}`];
+//   img.src = speaker.img;
+//   nameID.innerHTML = speaker.name;
+//   rule.innerHTML = speaker.rule;
+//   info.innerHTML = speaker.info;
+// }
 
-
-
-nameID.innerHTML = 'Paragraph changed!';
+// `nameID.innerHTML = 'Paragraph changed!';
