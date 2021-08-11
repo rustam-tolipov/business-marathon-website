@@ -271,7 +271,9 @@ body {
   }
 }
 
-.more {
+.more,
+.less {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

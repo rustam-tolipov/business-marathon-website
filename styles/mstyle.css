@@ -325,7 +325,9 @@ body {
   color: #f03e3e;
 }
 
-.more {
+.more,
+.less {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -339,7 +341,8 @@ body {
   padding: 2.4rem;
 }
 
-.more .down-arrow {
+.more .down-arrow,
+.less .down-arrow {
   height: 3rem;
   width: 5rem;
   color: #f03e3e;
