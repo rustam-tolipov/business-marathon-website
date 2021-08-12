@@ -13,7 +13,7 @@ const openMain = document.querySelector('.home-link');
 const openSponsor = document.querySelector('.partner-link');
 const home = document.getElementById('home');
 const about = document.querySelector('.about');
-let numv = 3;
+let numv = 2;
 
 function openMenu() {
   overlay.classList.remove('hidden');
@@ -113,6 +113,24 @@ function smth() {
     // document.querySelector('more').addEventListener('click', (num = 6));
 
     for (let i = 0; i < numv; i += 1) {
+      const speaker = `
+            <div class="speaker">
+            <img id="img" src="img/speakers/Hasan-Mamasaidov.png" alt="speaker" class="speaker-img" />
+            <div class="speaker-text">
+            <h2 id="name" class="speaker-name"></h2>
+              <p id="rule" class="speaker-job"></p>
+              <div class="line"></div>
+              <p id="info" class="speaker-info"></p>
+            </div>
+          </div>
+`;
+
+      document.getElementById('speaker-card').innerHTML += speaker;
+
+      changeCard(i);
+    }
+  } else if (window.innerWidth > 768) {
+    for (let i = 0; i < data.length; i += 1) {
       const speaker = `
             <div class="speaker">
             <img id="img" src="img/speakers/Hasan-Mamasaidov.png" alt="speaker" class="speaker-img" />
