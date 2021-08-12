@@ -2,9 +2,7 @@
 
 # Microverse-Capstone-Project
 
-![Screenshot](img/CapstoneProject.gif)
-
-![ScreenshotMobile](img/CapstoneProjectMobile.gif)
+![CapstoneProject](https://user-images.githubusercontent.com/69011963/129261532-9aa84aba-78cd-4e52-960e-c11abe236204.gif)
 
 Additional description about the project and its features.
 
