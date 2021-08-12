@@ -2,9 +2,9 @@
 
 # Microverse-Capstone-Project
 
-img/CapstoneProject.gif
+![Screenshot](img/CapstoneProject.gif)
 
-img/CapstoneProjectMobile.gif
+![ScreenshotMobile](img/CapstoneProjectMobile.gif)
 
 Additional description about the project and its features.
 
