@@ -157,8 +157,6 @@ btnLess.classList.add('hidden');
 
 btnMore.addEventListener('click', () => {
   document.getElementById('speaker-card').innerHTML = '';
-  // const url = 'https://bit.ly/IqT6zt';
-  // window.open(url, '_blank').focus();
   btnMore.classList.add('hidden');
   btnLess.classList.remove('hidden');
   numv = 6;
@@ -167,8 +165,6 @@ btnMore.addEventListener('click', () => {
 
 btnLess.addEventListener('click', () => {
   document.getElementById('speaker-card').innerHTML = '';
-  // const url = 'https://bit.ly/IqT6zt';
-  // window.open(url, '_blank').focus();
   btnLess.classList.add('hidden');
   btnMore.classList.remove('hidden');
   numv = 2;
