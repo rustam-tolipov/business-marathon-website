@@ -2,10 +2,6 @@
 
 # Microverse-Capstone-Project
 
-![Screenshot](img/CapstoneProject.gif)
-
-![ScreenshotMobile](img/CapstoneProjectMobile.gif)
-
 Additional description about the project and its features.
 
 ## Built With
