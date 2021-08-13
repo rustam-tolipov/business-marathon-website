@@ -110,8 +110,6 @@ function changeCard(num) {
 
 function smth() {
   if (window.innerWidth < 768) {
-    // document.querySelector('more').addEventListener('click', (num = 6));
-
     for (let i = 0; i < numv; i += 1) {
       const speaker = `
             <div class="speaker">
