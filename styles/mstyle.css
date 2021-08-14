@@ -591,12 +591,14 @@ body {
     padding: 0.4rem;
     padding-right: 20rem;
     font-size: 1.6rem;
-    color: #fff;
-    list-style: none;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
     background-color: #333;
+  }
+  .nav-top-list a {
+    color: #fff;
+    text-decoration: none;
   }
   .nav-bottom {
     display: -webkit-box;
