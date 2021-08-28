@@ -1,0 +1,712 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 43.75%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  font-weight: 500;
+}
+
+.hidden {
+  display: none;
+}
+
+.hamburger,
+.hamburger-about {
+  height: 8rem;
+  width: 8rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.options-menu {
+  width: 100%;
+  height: 100vh;
+  padding: 25rem 10rem;
+  position: fixed;
+  background-color: #3f454bab;
+  backdrop-filter: blur(4px);
+
+  .exit-button {
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    font-size: 8rem;
+  }
+
+  .menu-options {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    .link {
+      display: flex;
+      justify-content: center;
+      font-size: 5rem;
+      text-decoration: none;
+      color: #e4f1f1;
+      border: #cabfbe solid 0.4rem;
+      padding: 1.2rem;
+
+      &:hover {
+        border: #fe432d solid 0.4rem;
+        padding: 1.2rem;
+        transform: scale(1.3);
+        transition-duration: 0.1s;
+      }
+    }
+  }
+}
+
+////////////////////////
+// HEADING
+//////////
+
+.main {
+  .nav {
+    display: none;
+  }
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  padding: 2.4rem;
+  background-image: linear-gradient(45deg, rgb(255, 255, 255), rgba(228, 226, 226, 0.842)), url(https://images.unsplash.com/photo-1560439514-4e9645039924?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &-top,
+  &-main {
+    color: #f03e3e;
+  }
+
+  &-top {
+    padding-top: 6.4rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+
+  &-main {
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+  }
+
+  &-info {
+    background-color: #f8f9fa;
+    border: #fff solid 0.4rem;
+    padding: 1.6rem;
+    font-size: 2.4rem;
+  }
+
+  &-data {
+    font-size: 3.6rem;
+  }
+
+  &-place {
+    font-size: 2.4rem;
+    padding-bottom: 6.4rem;
+  }
+}
+
+////////////////////////
+// PROGRAMS
+///////////
+
+.program {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  color: #fff;
+  background-color: #2a2b2c;
+  padding: 1.6rem;
+  padding-top: 6.4rem;
+  background-image: linear-gradient(45deg, rgb(14, 10, 10), rgba(26, 21, 21, 0.842)), url(https://images.unsplash.com/photo-1527066579998-dbbae57f45ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=664&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &-title {
+    font-size: 3rem;
+    margin-bottom: 4.8rem;
+    text-align: center;
+  }
+
+  .line {
+    background-color: #f03e3e;
+    height: 0.2rem;
+    width: 7.4rem;
+    margin: 0 auto;
+  }
+
+  &-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  &-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.2rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 3.2rem;
+  }
+}
+
+.card-lecture {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  color: #f03e3e;
+
+  &-icon {
+    width: 6.2rem;
+  }
+
+  h6 {
+    color: #f03e3e;
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+}
+
+.card-lecture-info,
+.card-see-button-desk {
+  font-size: 2.4rem;
+}
+
+.card-see-button-desk {
+  display: none;
+}
+
+.card-see-button-mob {
+  background-color: #f03e3e;
+  font-size: 2.4rem;
+  text-align: center;
+  width: 48rem;
+  padding: 1.6rem 3.2rem;
+  margin: 6rem auto;
+  margin-bottom: 8rem;
+}
+
+////////////////////////
+// SPEAKERS
+///////////
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  background-color: #ece7e7;
+  padding: 2.4rem;
+
+  &-title {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+  }
+
+  &-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .line {
+    display: flex;
+    background-color: #f03e3e;
+    height: 0.2rem;
+    width: 8rem;
+    margin: 0 auto;
+  }
+
+  .speaker {
+    display: flex;
+    flex-direction: row;
+    gap: 3.2rem;
+
+    &-img {
+      height: 14rem;
+      width: 14rem;
+      box-shadow: -1rem -1rem #f03e3e;
+    }
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+
+      .line {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        background-color: rgb(194, 196, 197);
+        height: 0.2rem;
+        width: 4.4rem;
+      }
+    }
+
+    &-info {
+      font-size: 1.6rem;
+    }
+
+    &-name {
+      font-size: 2.4rem;
+      font-weight: 600;
+    }
+
+    &-job {
+      font-size: 1.8rem;
+      font-style: italic;
+      color: #f03e3e;
+    }
+  }
+}
+
+.more,
+.less {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 2.4rem;
+
+  .down-arrow {
+    height: 3rem;
+    width: 5rem;
+    color: #f03e3e;
+  }
+}
+
+.partner,
+.company {
+  display: none;
+}
+
+////////////////////////
+// ABOUT
+////////
+
+// ABOUT HEADING
+////////////////
+
+.about {
+  .nav {
+    display: none;
+  }
+}
+
+.about-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  padding: 2.4rem;
+  padding-bottom: 6.4rem;
+  background-image: linear-gradient(2deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.726)), url(https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #f03e3e;
+  text-align: center;
+
+  &-top {
+    font-size: 3rem;
+    padding-top: 4.8rem;
+    text-transform: uppercase;
+  }
+
+  &-title {
+    font-size: 5.2rem;
+    font-weight: 700;
+  }
+
+  &-info {
+    background-color: #f8f9fa;
+    border: #fff solid 0.4rem;
+    font-size: 2.4rem;
+    color: #333;
+    padding: 1.6rem;
+  }
+
+  &-contact {
+    font-size: 2rem;
+    color: #333;
+  }
+
+  &-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-decoration-color: #f03e3e;
+    text-underline-position: under;
+  }
+}
+
+.about-marathon {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  text-align: center;
+  padding: 3.2rem;
+
+  &-title {
+    font-size: 3.6rem;
+  }
+
+  &-info {
+    font-size: 2.4rem;
+  }
+
+  &-img {
+    height: 32rem;
+  }
+}
+
+.about-summits {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 3.2rem;
+  padding-bottom: 8rem;
+  background-color: #e4f1f1;
+
+  .about-summit-title {
+    font-size: 3.6rem;
+  }
+
+  .about-summit-info {
+    font-size: 2rem;
+  }
+
+  .about-summit-info-img1,
+  .about-summit-info-img2 {
+    background-size: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6rem;
+    color: #fff;
+  }
+
+  .about-summit-info-img1 {
+    margin-bottom: 4rem;
+    background-image: linear-gradient(45deg, rgba(240, 62, 62, 0.5), rgba(250, 82, 82, 0.5)), url(https://telegra.ph/file/9ca14b63a38f6467329e1.jpg);
+  }
+
+  .about-summit-info-img2 {
+    background-image: linear-gradient(45deg, rgba(240, 62, 62, 0.5), rgba(250, 82, 82, 0.5)), url(https://i2.wp.com/hudud24.uz/wp-content/uploads/2021/06/biznes-marafon-6-scaled.jpg?fit=2560%2C1576);
+  }
+}
+
+.partner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 6.4rem;
+  background-color: #343a40;
+  color: #e9ecef;
+
+  .partner-title {
+    font-size: 3rem;
+  }
+
+  .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 4.8rem;
+    justify-content: center;
+    list-style: none;
+
+    .first-logo {
+      width: 40rem;
+    }
+  }
+}
+
+.ending {
+  padding: 4.8rem 1.6rem;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+
+  .company-name {
+    font-size: 2.4rem;
+  }
+
+  .logo {
+    width: 10rem;
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+  }
+}
+
+///////////////////////////
+// MEDIA QUERIES
+////////////////
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .hamburger,
+  .hamburger-about {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    &-top-list {
+      display: flex;
+      gap: 4.8rem;
+      padding: 0.4rem;
+      padding-right: 20rem;
+      font-size: 1.6rem;
+      justify-content: flex-end;
+      background-color: #333;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+
+    &-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.4rem 18rem;
+
+      .logo {
+        height: 1rem;
+        margin-top: -19rem;
+      }
+
+      &-list {
+        display: flex;
+        align-items: center;
+        gap: 4.8rem;
+        list-style: none;
+        font-size: 1.6rem;
+        padding: 1.2rem;
+        cursor: auto;
+
+        .link {
+          text-decoration: none;
+          color: #333;
+        }
+
+        .link:hover {
+          color: #ff4f38;
+        }
+
+        .nav-list-button {
+          border: #fe432d solid 0.4rem;
+          padding: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .main {
+    .nav {
+      display: flex;
+    }
+  }
+
+  .about {
+    .nav {
+      display: flex;
+    }
+  }
+
+  .heading {
+    background-size: 100%;
+    padding-left: 18rem;
+
+    &-top {
+      font-size: 3rem;
+    }
+
+    &-main {
+      font-size: 6.2rem;
+    }
+
+    &-info {
+      width: 60%;
+    }
+  }
+
+  .program {
+    padding: 8rem;
+
+    &-cards {
+      padding: 2.4rem;
+      display: flex;
+      flex-direction: row;
+      gap: 1.2rem;
+      align-items: center;
+
+      .program-card {
+        display: flex;
+        flex-direction: column;
+        padding: 2.4rem;
+
+        .card-lecture {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .card-lecture-info {
+          font-size: 1.8rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .speakers {
+    .speakers-card {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      justify-content: center;
+      flex-direction: row;
+
+      .speaker {
+        width: 40%;
+        margin-right: 4.8rem;
+        margin-bottom: 4.8rem;
+
+        &-img {
+          height: 14.2rem;
+          width: 14.2rem;
+          box-shadow: -0.5rem -0.5rem #fe432d;
+        }
+
+        .speaker-text {
+          .speaker-job,
+          .speaker-info {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+
+    .more {
+      display: none;
+    }
+  }
+
+  .partner {
+    padding: 4.8rem 7.4rem;
+
+    .first-logo {
+      width: 1rem;
+    }
+  }
+
+  .ending {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.4rem 20rem;
+
+    .logo {
+      width: 10rem;
+    }
+  }
+
+  // ABOUT START //////////////////////
+
+  .about-heading {
+    background-image: linear-gradient(45deg, rgb(255, 255, 255), rgba(228, 226, 226, 0.842)), url(https://images.unsplash.com/photo-1560439514-4e9645039924?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+    background-size: 100%;
+    padding: 15rem 20rem;
+    display: flex;
+    gap: 8rem;
+    text-align: center;
+    align-items: center;
+
+    &-top {
+      display: none;
+    }
+
+    .line {
+      display: flex;
+      background-color: rgb(226, 75, 75);
+      height: 0.2rem;
+      width: 4rem;
+      margin: 0 auto;
+      margin-top: -4.8rem;
+    }
+
+    .about-heading-info {
+      width: 70%;
+      font-size: 2rem;
+      background-color: #e9ecef;
+    }
+
+    .about-heading-contact {
+      margin-bottom: -3.2rem;
+    }
+  }
+
+  .about-marathon {
+    display: flex;
+    align-items: center;
+    padding: 4.8rem;
+
+    .about-marathon-info {
+      font-size: 2rem;
+    }
+
+    &-img {
+      padding: 4.8rem;
+      height: 70rem;
+      width: 65%;
+    }
+  }
+
+  .about-summits {
+    .about-summit-images {
+      display: flex;
+      flex-direction: row;
+      gap: 4.8rem;
+      justify-content: center;
+
+      .about-summit-info-img1 {
+        width: 30%;
+        font-size: 2rem;
+      }
+
+      .about-summit-info-img2 {
+        width: 30%;
+        font-size: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# .gitignore
+node_modules/
+
+# .gitignore  scss
+styles/mstyle.css.map
+text.txt
