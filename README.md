@@ -2,6 +2,8 @@
 
 # Microverse-Capstone-Project
 
+<img width="1438" alt="Screen Shot 2021-10-13 at 11 02 44 PM" src="https://user-images.githubusercontent.com/69011963/137188289-14e79e66-2b7f-4b3a-9a0c-3502a99199fd.png">
+
 Additional description about the project and its features.
 
 ## Built With
@@ -14,13 +16,13 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+<!-- ### Prerequisites
 
 - HTML
 - CSS
 - JavaScript
 - Git
-- GitHub
+- GitHub -->
 
 ## Live Demo
 
